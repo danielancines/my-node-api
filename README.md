@@ -1,6 +1,6 @@
 # Config.js
 
-To use this repository, you need to create a config.js inside api folder.
+To use this repository, you need to create a config.js inside the /api folder.
 
 ```javascript
 module.exports = {
