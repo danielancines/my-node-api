@@ -1,0 +1,32 @@
+{
+  "name": "my-node-api",
+  "version": "1.0.0",
+  "description": "My Node Api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon api/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielancines/my-node-api.git"
+  },
+  "author": "Daniel Ancines",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielancines/my-node-api/issues"
+  },
+  "homepage": "https://github.com/danielancines/my-node-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.1",
+    "mysql": "^2.15.0",
+    "route": "^0.2.5",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
